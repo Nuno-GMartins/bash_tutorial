@@ -43,7 +43,7 @@ All characters are hidden in the exercises below.
 
 ### 1.1. Navigating directories
 
-The **first character** is hidden in a file somewhere in the *exercise1*
+The **first character** is hidden in a file somewhere in the *exercise_1*
 directory tree. Use the commands
 
 ``` {.sourceCode .bash}
@@ -79,7 +79,7 @@ command
 ls -a
 ```
 
-The **second character**, is in the same directory as the first one, but
+The **second character**, is in the same directory as the first one `solution_1.1`, but
 in a hidden file.
 
 ### 1.3. Execute a program
@@ -110,7 +110,7 @@ of the last modification.
 
 To obtain the fourth character look up the file size in the [Table of
 printable ASCII
-characters](https://en.wikipedia.org/wiki/ASCII#Printable_characters):
+characters](https://en.wikipedia.org/wiki/ASCII#Printable_characters) (use the decimal column):
 
 ![](ASCII-Table-wide.svg)
 
@@ -139,6 +139,7 @@ its contents, use the command
 ``` {.sourceCode .bash}
 less <filename>
 ```
+Type 'q' on your keyboard to exit the screen.
 
 ### 2.2. Edit text files
 
@@ -155,7 +156,9 @@ nano <filename>
 Create a text file with the characters you have found so far.
 
 The **sixth character** is the one you need to press to save a file in
-`nano`.
+`nano`. 
+
+*(Hint: It's one of the options at the bottom of your screen).*
 
 <div class="admonition hint">
 
@@ -179,7 +182,7 @@ Please go to the directory exercise\_3.
 
 To find **characters seven and eight**, you need to create a
 subdirectory named *solution* in `exercise_3/` and copy the files from
-the `part1/` and `part2/` folders into it.
+the `code1/` and `code2/` folders into it.
 
 For creating directories, use the command:
 
@@ -231,7 +234,7 @@ deletes a directory and everything in it.
 
 <div class="admonition warning">
 
-On Unix, it is not possible to undelete files!
+**Be careful! On Unix, it is not possible to undelete files!**
 
 This makes removing files with the `*` symbol **very** dangerous,
 because you could wipe out everything with a single command (e.g. if you
@@ -307,8 +310,6 @@ filename.
 </div>
 
 <div class="admonition warning">
-
-The last two exercises may not work on Git Bash.
 
 </div>
 
