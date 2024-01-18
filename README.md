@@ -387,7 +387,7 @@ grants all users the permission to execute a file, while chmod u-w
 forbids the current user (oneself) to write to the file (thereby
 protecting it from being deleted accidentally).
 
-To see **characters 16+17** of the solution, make the program
+To see **characters 16 and 17** of the solution, make the program
 `permissions.sh` executable. Then execute it with:
 
 ``` {.sourceCode .bash}
@@ -441,13 +441,13 @@ env
 ```
 
 To obtain the **19th character**, you need to use `export` to set the
-variable *GIVEME* to the value **SOLUTION**.
+variable *GIVEME* to the value **SOLUTION** (i.e. assign the value 'SOLUTION' to the variable name 'GIVEME').
 
 ``` {.sourceCode .bash}
 echo $GIVEME
 ```
 
-Find out the **characters position in the alphabet** with:
+Find out the **character's position in the alphabet** with:
 
 ``` {.sourceCode .bash}
 echo $GIVEME | wc -c
@@ -468,22 +468,19 @@ hidden file).
 
 The easiest way to check from the Unix command line whether the internet
 connection works, is to send a request to a known server (e.g.
-www.spiced-academy.com) using the command
+www.google.com) using the command
 
 ``` {.sourceCode .bash}
 ping <web address>
 ```
 
 The command reports, how long a message takes back and forth to the
-given server. To interrupt the messages, press Ctrl+C. You can use the
-program
-
-``` {.sourceCode .bash}
-./check_ping
-```
+given server. To interrupt the messages, press Ctrl+C.
 
 The **20th character** is the `ping` option that sets the maximum number
-of requests sent. Check the documentation with:
+of requests sent. In other words, look for the option that will stop sending packets after sending a user-defined number.
+
+Check the documentation with:
 
 ``` {.sourceCode .bash}
 man ping
@@ -519,6 +516,8 @@ kill -s 9 <pid>
 You find the pid number in the first column of the *top* output. Of
 course, you may only interrupt your own programs, not those owned by
 *root*, the system administrator.
+
+**Congratulations! You've completed the tutorial :)**
 
 ----
 
