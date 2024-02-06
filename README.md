@@ -22,7 +22,7 @@ your system.*
 
 ## Goal
 
-In this tutorial, you will be looking for a word with 22 characters:
+In this tutorial, you will be looking for two words with 22 characters in total:
 
 ![](solution.png)
 
