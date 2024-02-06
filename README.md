@@ -12,12 +12,6 @@ This tutorial makes you familiar with **bash**, the Linux command line. You will
 If you have no previous experience with Unix-like
 systems or know a few commands but would like to know more, this tutorial is for you.
 
-### Prerequisites
-
-*This tutorial was prepared for Ubuntu Linux, but it works on MacOS,
-Cygwin and the Git bash as well, given that Python 3 is installed on
-your system.*
-
 ----
 
 ## Goal
@@ -30,9 +24,10 @@ All characters are hidden in the exercises below.
 
 ## Preparations
 
-* clone the repository or download the code as a ZIP file
-* locate the  `exercises/` folder
 * open a `bash` terminal
+* log onto the server
+* unzip the 'Exercises.zip' file
+* locate the `unix_tutorial/` folder
 
 ![](preparations.png)
 
