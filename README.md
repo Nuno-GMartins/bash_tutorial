@@ -29,8 +29,6 @@ All characters are hidden in the exercises below.
 * unzip the 'Exercises.zip' file
 * locate the `unix_tutorial/` folder
 
-![](preparations.png)
-
 ----
 
 ## 1. Directories and files
