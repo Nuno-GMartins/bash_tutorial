@@ -413,7 +413,7 @@ To obtain the **18th character**, check out the version of the `df`
 program. Find out how to do that with:
 
 ``` {.sourceCode .bash}
-df --help
+df --version
 ```
 
 The solution is the last character of the first authors' first name.
